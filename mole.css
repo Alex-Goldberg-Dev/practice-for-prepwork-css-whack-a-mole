@@ -4,6 +4,7 @@
   height: 482px;
   position: relative;
   display: inline-block;
+  overflow: hidden;
 }
 
 .wgs__mole-head {
@@ -20,7 +21,9 @@
   bottom: 0;
 }
 
-
+.wgs__mole-head--hidden {
+  margin-top: 482px;
+}
 
 /* UNCOMMENT THE CODE BELOW WHEN DIRECTED */
 /* .sb {
